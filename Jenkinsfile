@@ -111,7 +111,7 @@ pipeline {
                                 -H \"Accept: application/vnd.github.v3+json\" \\
                                 -H \"Authorization: token ${GIT_TOKEN}\" \\
                                 https://api.github.com/repos/soubi8/realworld-springboot-java/merges \\
-                                -d '{\"base\":\"master\",\"head\":\"develop\",\"commit_message\":\"Added Jenkinsfile, Dockerfile, test script\"}'
+                                -d '{\"base\":\"master\",\"head\":\"develop\",\"commit_message\":\"Minor edit. Changed the version of the app\"}'
                         '''
                     }
                 }
